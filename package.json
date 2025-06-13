@@ -1,0 +1,63 @@
+{
+  "name": "dyy-ui-plus-playground",
+  "version": "0.0.1",
+  "packageManager": "pnpm@10.2.0",
+  "description": "Element Plus Playground",
+  "type": "module",
+  "engines": {
+    "node": ">=20.10"
+  },
+  "keywords": [
+    "element",
+    "element-plus",
+    "playground",
+    "repl"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint --cache --max-warnings 0 .",
+    "lint:fix": "pnpm run lint --fix",
+    "typecheck": "vue-tsc --noEmit",
+    "release": "bumpp",
+    "format": "prettier --write --cache ."
+  },
+  "dependencies": {
+    "@unocss/reset": "^65.4.3",
+    "@vue/repl": "^4.5.0",
+    "@vueuse/core": "^12.5.0",
+    "dyy-ui-plus": "^1.0.7",
+    "element-plus": "^2.9.3",
+    "semver": "^7.7.1",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@iconify-json/ri": "^1.2.5",
+    "@sxzz/eslint-config": "^5.0.1",
+    "@sxzz/prettier-config": "^2.1.1",
+    "@types/node": "^22.13.1",
+    "@types/semver": "^7.5.8",
+    "@unocss/eslint-plugin": "^65.4.3",
+    "@unocss/transformer-directives": "^65.4.3",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/tsconfig": "^0.7.0",
+    "bumpp": "^10.0.1",
+    "eslint": "^9.19.0",
+    "prettier": "^3.4.2",
+    "sass": "^1.83.4",
+    "typescript": "^5.7.3",
+    "unocss": "^65.4.3",
+    "unplugin-auto-import": "^19.0.0",
+    "unplugin-vue-components": "^28.0.0",
+    "vite": "^6.0.11",
+    "vite-plugin-inspect": "^10.1.0",
+    "vite-plugin-mkcert": "^1.17.6",
+    "vue-tsc": "^2.2.0"
+  },
+  "prettier": "@sxzz/prettier-config",
+  "volta": {
+    "node": "20.10.0"
+  }
+}
