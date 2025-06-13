@@ -14,6 +14,7 @@ import pkg from './package.json' with { type: 'json' }
 const pathSrc = path.resolve(__dirname, 'src')
 
 export default defineConfig({
+  base: '/dyy-ui-plus-playground/',
   resolve: {
     alias: {
       '@': pathSrc,
